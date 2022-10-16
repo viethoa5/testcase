@@ -46,5 +46,11 @@ public class Main {
         System.out.println(Penaltymoney(false, 20));
         System.out.println(Penaltymoney(false,100));
         System.out.println(Penaltymoney(false, 200));
+        // Kiểm thử dòng điều khiển :
+        System.out.println(Penaltymoney(true,100));
+        System.out.println(Penaltymoney(false,-20));
+        System.out.println(Penaltymoney(false,200));
+        System.out.println(Penaltymoney(false, 40));
+        System.out.println(Penaltymoney(true,60));
     }
 }
